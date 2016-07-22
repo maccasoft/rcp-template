@@ -1,0 +1,50 @@
+.MTrimmedWindow {  
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.MPartStack {
+  swt-tab-renderer: null;
+  swt-selected-tabs-background: #FFFFFF #EDECEB 100%;
+  swt-simple: false;
+  swt-mru-visible: true;
+}
+
+
+.MPartStack.active {
+  swt-selected-tabs-background: #ECF2F9 #B6CCE8 100%;
+}
+
+#PerspectiveSwitcher  {
+    eclipse-perspective-keyline-color: #ECE9D8 #FFFFFF;
+}
+
+.MToolControl.TrimStack {
+    frame-cuts: 5px 1px 5px 16px;
+}
+
+.DragFeedback {
+    background-color: #000000; 
+}
+
+.ModifiedDragFeedback {
+    background-color: #A0A000; 
+}
+
+CTabItem {
+    font-style: normal;
+    font-weight: normal;
+}
+
+CTabItem.busy {
+    font-style: italic;
+}
+
+CTabItem.highlighted {
+    font-weight: bold;
+}
+#SearchField {
+   visibility:hidden;
+}

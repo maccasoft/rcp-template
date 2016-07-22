@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundleName
+Bundle-SymbolicName: com.maccasoft.ui;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.maccasoft.ui.internal.Activator
+Bundle-Vendor: %bundleVendor
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.core.databinding,
+ org.eclipse.core.databinding.property
+Bundle-ActivationPolicy: lazy
+Export-Package: com.maccasoft.ui.internal;x-internal:=true
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.maccasoft.platform"
+      label="MaccaSoft Platform"
+      version="1.0.0.qualifier"
+      provider-name="MaccaSoft.com"
+      plugin="com.maccasoft.ui.application">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <url>
+      <update label="MaccaSoft Update Site" url="http://dev.maccasoft.com/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.rcp" version="4.6.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.maccasoft.ui.application"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.maccasoft.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.maccasoft.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

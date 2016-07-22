@@ -1,0 +1,8 @@
+instructions.configure = \
+  addRepository(type:0,location:http${#58}//project.site/updates,name:Project Updates);\
+  addRepository(type:1,location:http${#58}//project.site/updates,name:Project Updates);\
+  mkdir(path:${installFolder}/dropins);\
+  setProgramProperty(propName:org.eclipse.equinox.simpleconfigurator.configUrl,propValue:file:org.eclipse.equinox.simpleconfigurator/bundles.info);
+
+instructions.unconfigure = \
+  setProgramProperty(propName:org.eclipse.equinox.simpleconfigurator.configUrl,propValue:);

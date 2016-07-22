@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.maccasoft.ui.internal.DefaultPerspective"
+            icon="icons/eview16/default_persp.png"
+            id="com.maccasoft.ui.perspective"
+            name="%perspectiveName">
+      </perspective>
+   </extension>
+
+</plugin>

@@ -1,0 +1,17 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.maccasoft.template</groupId>
+    <artifactId>com.maccasoft.template.features</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>com.maccasoft.template</groupId>
+        <artifactId>com.maccasoft.template.root</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+        <module>com.maccasoft.platform-feature</module>
+    </modules>
+</project>

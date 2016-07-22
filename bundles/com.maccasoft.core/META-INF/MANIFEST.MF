@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundleName
+Bundle-SymbolicName: com.maccasoft.core;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.maccasoft.core.internal.Activator
+Bundle-Vendor: %bundleVendor
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Export-Package: com.maccasoft.core.internal;x-internal:=true

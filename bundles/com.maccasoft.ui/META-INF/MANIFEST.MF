@@ -8,7 +8,9 @@ Bundle-Vendor: %bundleVendor
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui,
  org.eclipse.core.databinding,
- org.eclipse.core.databinding.property
+ org.eclipse.core.databinding.property,
+ org.eclipse.ui.editors,
+ org.eclipse.e4.core.commands
 Bundle-ActivationPolicy: lazy
 Export-Package: com.maccasoft.ui.internal;x-internal:=true
 Bundle-Localization: plugin

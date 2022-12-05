@@ -13,7 +13,9 @@
 
     <modules>
         <module>com.maccasoft.core</module>
+        <module>com.maccasoft.core.tests</module>
         <module>com.maccasoft.ui</module>
+        <module>com.maccasoft.ui.tests</module>
         <module>com.maccasoft.ui.application</module>
     </modules>
 </project>

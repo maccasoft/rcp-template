@@ -10,3 +10,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
 Export-Package: com.maccasoft.core.internal;x-internal:=true
+Automatic-Module-Name: com.maccasoft.core

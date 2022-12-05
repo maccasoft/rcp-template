@@ -15,3 +15,4 @@ Bundle-ActivationPolicy: lazy
 Export-Package: com.maccasoft.ui.internal;x-internal:=true
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.maccasoft.ui

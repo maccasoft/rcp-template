@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundleName
+Bundle-SymbolicName: com.maccasoft.core.tests
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: %bundleVendor
+Fragment-Host: com.maccasoft.core;bundle-version="1.0.0"
+Require-Bundle: org.junit
+Automatic-Module-Name: com.maccasoft.core.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-Localization: plugin

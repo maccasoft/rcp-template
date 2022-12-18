@@ -1,13 +1,13 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.maccasoft.template</groupId>
-    <artifactId>com.maccasoft.template.bundles</artifactId>
+    <artifactId>bundles</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
         <groupId>com.maccasoft.template</groupId>
-        <artifactId>com.maccasoft.template.root</artifactId>
+        <artifactId>com.maccasoft.template</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
